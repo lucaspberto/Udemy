@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D365339F27AEEB2C63D1B0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D365324F7BB348FDFDFD922A /* Assets.xcassets */; };
+		D3653453C7C0797AA5CE12C3 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3653ECC436406CD4812E8AF /* Tests_macOSLaunchTests.swift */; };
+		D36536118CDB5E356EEAFD32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36530CF0ADFC268FCAF29E3 /* ContentView.swift */; };
+		D365377B23531BE5C1C893B2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3653D6D860FD30B7DF991F8 /* Tests_macOS.swift */; };
+		D36539E23A57E0FD04D0E684 /* UdemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3653A788F03F0F12903F4B1 /* UdemyApp.swift */; };
+		D3653D07DDDFE0F9C04F38EE /* UdemyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3653A788F03F0F12903F4B1 /* UdemyApp.swift */; };
+		D3653D7536E0F29A98C56CFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36530CF0ADFC268FCAF29E3 /* ContentView.swift */; };
+		D3653DC15614E5BA92A016A5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3653FC14F152325245D1EC1 /* Tests_iOS.swift */; };
+		D3653EB426C928960FBD191A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D365324F7BB348FDFDFD922A /* Assets.xcassets */; };
+		D3653EE962C6FBD73BF3DD64 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D365318CFD8854F03F74B4A3 /* Tests_iOSLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3653241071B1323207773ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3653271D6F7B5E70532AF02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36537A4124D53246D2871AA;
+			remoteInfo = "Udemy (iOS)";
+		};
+		D3653D0D23DE1F9FB3A748C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3653271D6F7B5E70532AF02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D365349D0A5CE6B4E32A5465;
+			remoteInfo = "Udemy (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36530CF0ADFC268FCAF29E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D365318CFD8854F03F74B4A3 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		D365324F7BB348FDFDFD922A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36536401E7FFBA826741DA7 /* Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36539C654EE705B8686BADC /* Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36539CD76EB284BC48CD267 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D36539DADC509153B3E708A1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3653A788F03F0F12903F4B1 /* UdemyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyApp.swift; sourceTree = "<group>"; };
+		D3653D6D860FD30B7DF991F8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D3653ECC436406CD4812E8AF /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		D3653FC14F152325245D1EC1 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D3653FECCDB5024BF0ECBCA3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36533B3F2EFF80B1BE8F914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36535DC9697230CEA1A6150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36539494549E70F574192C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3653FF5BCB907BB68365082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D365313A06CC41F11C6AF633 = {
+			isa = PBXGroup;
+			children = (
+				D3653C6F8041380D4986D002 /* Products */,
+				D36537C05859B3A389406F4B /* Shared */,
+				D3653ED55A5A44BCAED79842 /* macOS */,
+				D36539775E6129266746809E /* Tests iOS */,
+				D3653999297CB3BF13E76C12 /* Tests macOS */,
+			);
+			sourceTree = "<group>";
+		};
+		D36537C05859B3A389406F4B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D365324F7BB348FDFDFD922A /* Assets.xcassets */,
+				D3653A788F03F0F12903F4B1 /* UdemyApp.swift */,
+				D36530CF0ADFC268FCAF29E3 /* ContentView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D36539775E6129266746809E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3653FC14F152325245D1EC1 /* Tests_iOS.swift */,
+				D365318CFD8854F03F74B4A3 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		D3653999297CB3BF13E76C12 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3653D6D860FD30B7DF991F8 /* Tests_macOS.swift */,
+				D3653ECC436406CD4812E8AF /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		D3653C6F8041380D4986D002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36539C654EE705B8686BADC /* Udemy.app */,
+				D36536401E7FFBA826741DA7 /* Udemy.app */,
+				D3653FECCDB5024BF0ECBCA3 /* Tests iOS.xctest */,
+				D36539DADC509153B3E708A1 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3653ED55A5A44BCAED79842 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D36539CD76EB284BC48CD267 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3653467AB45EC2B551C3F1D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D365341F25F49347765EFB73 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				D3653EF4EF5A3E0F337B895D /* Sources */,
+				D36539494549E70F574192C6 /* Frameworks */,
+				D365361B3A7B75E77B2A673A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36530EAD2060AA2D1D7FD60 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D3653FECCDB5024BF0ECBCA3 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D365349D0A5CE6B4E32A5465 /* Udemy (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36536BF95F6BEA662D70140 /* Build configuration list for PBXNativeTarget "Udemy (macOS)" */;
+			buildPhases = (
+				D365381989DC156CD8FC6DE7 /* Sources */,
+				D36535DC9697230CEA1A6150 /* Frameworks */,
+				D3653BA9ACB455ADEAA90DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udemy (macOS)";
+			productName = "Udemy (macOS)";
+			productReference = D36536401E7FFBA826741DA7 /* Udemy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36537A4124D53246D2871AA /* Udemy (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36531D229751F463A74E006 /* Build configuration list for PBXNativeTarget "Udemy (iOS)" */;
+			buildPhases = (
+				D3653299B8938A35233BEF1C /* Sources */,
+				D3653FF5BCB907BB68365082 /* Frameworks */,
+				D3653CBE791DEE3B67CA2E33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udemy (iOS)";
+			productName = "Udemy (iOS)";
+			productReference = D36539C654EE705B8686BADC /* Udemy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3653D2E33D87C38A083E984 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3653F092E6AE8304DD8C00D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D3653CD73BB220FD3A39B308 /* Sources */,
+				D36533B3F2EFF80B1BE8F914 /* Frameworks */,
+				D36532337545766208E59971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3653BD3B170F70F855E44EB /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D36539DADC509153B3E708A1 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3653271D6F7B5E70532AF02 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D3653006C0CAB56209F58C81 /* Build configuration list for PBXProject "Udemy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D365313A06CC41F11C6AF633;
+			productRefGroup = D3653C6F8041380D4986D002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36537A4124D53246D2871AA /* Udemy (iOS) */,
+				D365349D0A5CE6B4E32A5465 /* Udemy (macOS) */,
+				D3653467AB45EC2B551C3F1D /* Tests iOS */,
+				D3653D2E33D87C38A083E984 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36532337545766208E59971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D365361B3A7B75E77B2A673A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3653BA9ACB455ADEAA90DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D365339F27AEEB2C63D1B0EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3653CBE791DEE3B67CA2E33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3653EB426C928960FBD191A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3653299B8938A35233BEF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3653D07DDDFE0F9C04F38EE /* UdemyApp.swift in Sources */,
+				D36536118CDB5E356EEAFD32 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D365381989DC156CD8FC6DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36539E23A57E0FD04D0E684 /* UdemyApp.swift in Sources */,
+				D3653D7536E0F29A98C56CFD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3653CD73BB220FD3A39B308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D365377B23531BE5C1C893B2 /* Tests_macOS.swift in Sources */,
+				D3653453C7C0797AA5CE12C3 /* Tests_macOSLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3653EF4EF5A3E0F337B895D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3653DC15614E5BA92A016A5 /* Tests_iOS.swift in Sources */,
+				D3653EE962C6FBD73BF3DD64 /* Tests_iOSLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36530EAD2060AA2D1D7FD60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36537A4124D53246D2871AA /* Udemy (iOS) */;
+			targetProxy = D3653241071B1323207773ED /* PBXContainerItemProxy */;
+		};
+		D3653BD3B170F70F855E44EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D365349D0A5CE6B4E32A5465 /* Udemy (macOS) */;
+			targetProxy = D3653D0D23DE1F9FB3A748C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D365326953AE1CA5BB3C2CB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D36533A9626F001EF4BD79F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36535F6227D85DEE5FC061A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lucas.Udemy;
+				PRODUCT_NAME = Udemy;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D365381EC9DF62E09B139852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Udemy (macOS)";
+			};
+			name = Release;
+		};
+		D365385C839F7E72D58E9E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Udemy (iOS)";
+			};
+			name = Release;
+		};
+		D365388577E153E104B0C8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lucas.Udemy;
+				PRODUCT_NAME = Udemy;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3653B60481132B1B06F4D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lucas.Udemy;
+				PRODUCT_NAME = Udemy;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3653D7C73E984EE2710CDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Udemy (iOS)";
+			};
+			name = Debug;
+		};
+		D3653E12D36790EADB2D7924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lucas.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Udemy (macOS)";
+			};
+			name = Debug;
+		};
+		D3653F9C2B0E79A374997055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lucas.Udemy;
+				PRODUCT_NAME = Udemy;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3653006C0CAB56209F58C81 /* Build configuration list for PBXProject "Udemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36533A9626F001EF4BD79F7 /* Debug */,
+				D365326953AE1CA5BB3C2CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36531D229751F463A74E006 /* Build configuration list for PBXNativeTarget "Udemy (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D365388577E153E104B0C8C7 /* Debug */,
+				D3653B60481132B1B06F4D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D365341F25F49347765EFB73 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3653D7C73E984EE2710CDEA /* Debug */,
+				D365385C839F7E72D58E9E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D36536BF95F6BEA662D70140 /* Build configuration list for PBXNativeTarget "Udemy (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3653F9C2B0E79A374997055 /* Debug */,
+				D36535F6227D85DEE5FC061A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3653F092E6AE8304DD8C00D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3653E12D36790EADB2D7924 /* Debug */,
+				D365381EC9DF62E09B139852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3653271D6F7B5E70532AF02 /* Project object */;
+}
